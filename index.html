@@ -13,21 +13,21 @@
         rel="stylesheet">
     <style>
         :root {
-            --primary: #1a73e8;
-            --primary-dark: #1557b0;
-            --primary-light: #4a90e2;
-            --secondary: #0ea5e9;
-            --accent: #06b6d4;
+            --primary: #b8860b;
+            --primary-dark: #8b6508;
+            --primary-light: #d4a017;
+            --secondary: #f5c842;
+            --accent: #e6ac00;
             --gold: #f59e0b;
             --dark: #ffffff;
-            --dark2: #f0f6ff;
-            --dark3: #e8f0fe;
-            --glass: rgba(26, 115, 232, 0.06);
-            --glass-border: rgba(26, 115, 232, 0.15);
+            --dark2: #fdf8ee;
+            --dark3: #fef3c7;
+            --glass: rgba(184, 134, 11, 0.06);
+            --glass-border: rgba(184, 134, 11, 0.15);
             --text: #1e293b;
             --text-muted: #475569;
             --radius: 16px;
-            --shadow: 0 20px 60px rgba(26, 115, 232, 0.12);
+            --shadow: 0 20px 60px rgba(184, 134, 11, 0.12);
         }
 
         * {
@@ -61,7 +61,7 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: #f0f6ff;
+            background: #fdf8ee;
         }
 
         ::-webkit-scrollbar-thumb {
@@ -84,7 +84,7 @@
         header.scrolled {
             background: rgba(255, 255, 255, 0.97);
             border-bottom: 1px solid var(--glass-border);
-            box-shadow: 0 4px 24px rgba(26, 115, 232, 0.1);
+            box-shadow: 0 4px 24px rgba(184, 134, 11, 0.1);
         }
 
         nav {
@@ -106,7 +106,6 @@
             background-clip: text;
             cursor: pointer;
             letter-spacing: -0.5px;
-            white-space: nowrap;
         }
 
         .nav-links {
@@ -156,7 +155,7 @@
 
         .nav-cta:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(26, 115, 232, .35);
+            box-shadow: 0 8px 25px rgba(184, 134, 11, .35);
             color: white !important;
         }
 
@@ -186,7 +185,7 @@
         .hero-bg {
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, #eef4ff 0%, #f0f8ff 40%, #e8f4fd 70%, #f5f0ff 100%);
+            background: linear-gradient(135deg, #fdf8ee 0%, #fef9f0 40%, #fef3c7 70%, #fffbea 100%);
         }
 
         .hero-orb {
@@ -199,7 +198,7 @@
         .hero-orb-1 {
             width: 500px;
             height: 500px;
-            background: rgba(26, 115, 232, .12);
+            background: rgba(184, 134, 11, .12);
             top: -100px;
             right: -100px;
             animation-delay: 0s;
@@ -208,7 +207,7 @@
         .hero-orb-2 {
             width: 400px;
             height: 400px;
-            background: rgba(14, 165, 233, .10);
+            background: rgba(245, 200, 66, .10);
             bottom: -50px;
             left: -80px;
             animation-delay: 2s;
@@ -217,7 +216,7 @@
         .hero-orb-3 {
             width: 300px;
             height: 300px;
-            background: rgba(6, 182, 212, .08);
+            background: rgba(230, 172, 0, .08);
             top: 50%;
             left: 40%;
             animation-delay: 4s;
@@ -251,8 +250,8 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            background: rgba(26, 115, 232, .1);
-            border: 1px solid rgba(26, 115, 232, .25);
+            background: rgba(184, 134, 11, .1);
+            border: 1px solid rgba(184, 134, 11, .25);
             color: var(--primary);
             padding: 8px 18px;
             border-radius: 50px;
@@ -307,12 +306,12 @@
             font-weight: 700;
             font-size: 1rem;
             transition: all .3s;
-            box-shadow: 0 8px 28px rgba(26, 115, 232, .35);
+            box-shadow: 0 8px 28px rgba(184, 134, 11, .35);
         }
 
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(26, 115, 232, .45);
+            box-shadow: 0 15px 40px rgba(184, 134, 11, .45);
         }
 
         .btn-outline {
@@ -335,7 +334,7 @@
             color: white;
             border-color: transparent;
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(26, 115, 232, .3);
+            box-shadow: 0 10px 30px rgba(184, 134, 11, .3);
         }
 
         .hero-stats {
@@ -343,7 +342,7 @@
             gap: 40px;
             margin-top: 48px;
             padding-top: 40px;
-            border-top: 1px solid rgba(26, 115, 232, .15);
+            border-top: 1px solid rgba(184, 134, 11, .15);
         }
 
         .stat {
@@ -388,7 +387,7 @@
             border-radius: 24px;
             overflow: hidden;
             position: relative;
-            box-shadow: 0 30px 80px rgba(26, 115, 232, .2);
+            box-shadow: 0 30px 80px rgba(184, 134, 11, .2);
         }
 
         .hero-image-wrap img {
@@ -403,14 +402,14 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(180deg, transparent 50%, rgba(26, 115, 232, .15));
+            background: linear-gradient(180deg, transparent 50%, rgba(184, 134, 11, .15));
             z-index: 1;
         }
 
         .hero-badge-float {
             position: absolute;
             background: white;
-            box-shadow: 0 8px 30px rgba(26, 115, 232, .18);
+            box-shadow: 0 8px 30px rgba(184, 134, 11, .18);
             border-radius: 14px;
             padding: 14px 18px;
             z-index: 2;
@@ -475,8 +474,8 @@
 
         .section-tag {
             display: inline-block;
-            background: rgba(26, 115, 232, .1);
-            border: 1px solid rgba(26, 115, 232, .25);
+            background: rgba(184, 134, 11, .1);
+            border: 1px solid rgba(184, 134, 11, .25);
             color: var(--primary);
             padding: 6px 18px;
             border-radius: 50px;
@@ -511,7 +510,7 @@
 
         /* ABOUT */
         .about {
-            background: linear-gradient(180deg, #ffffff 0%, #f0f6ff 100%);
+            background: linear-gradient(180deg, #ffffff 0%, #fdf8ee 100%);
         }
 
         .about-grid {
@@ -528,7 +527,7 @@
         .about-img-wrap img {
             width: 100%;
             border-radius: 24px;
-            box-shadow: 0 20px 60px rgba(26, 115, 232, .15);
+            box-shadow: 0 20px 60px rgba(184, 134, 11, .15);
         }
 
         .about-img-wrap::before {
@@ -545,11 +544,11 @@
             bottom: -30px;
             right: -30px;
             background: white;
-            border: 1px solid rgba(26, 115, 232, .15);
+            border: 1px solid rgba(184, 134, 11, .15);
             border-radius: 16px;
             padding: 20px 28px;
             text-align: center;
-            box-shadow: 0 10px 40px rgba(26, 115, 232, .15);
+            box-shadow: 0 10px 40px rgba(184, 134, 11, .15);
         }
 
         .experience-card .num {
@@ -601,14 +600,13 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            background: linear-gradient(135deg, rgba(26, 115, 232, .08), rgba(14, 165, 233, .08));
-            border: 1px solid rgba(26, 115, 232, .2);
+            background: linear-gradient(135deg, rgba(184, 134, 11, .08), rgba(245, 200, 66, .08));
+            border: 1px solid rgba(184, 134, 11, .2);
             color: var(--primary);
-            padding: 8px 16px;
+            padding: 10px 18px;
             border-radius: 50px;
-            font-size: .85rem;
+            font-size: .88rem;
             font-weight: 600;
-            white-space: nowrap;
         }
 
         .tag i {
@@ -617,7 +615,7 @@
 
         /* TESTIMONIALS */
         .testimonials {
-            background: #f0f6ff;
+            background: #fdf8ee;
         }
 
         .testimonial-grid {
@@ -628,13 +626,13 @@
 
         .testimonial-card {
             background: white;
-            border: 1px solid rgba(26, 115, 232, .12);
+            border: 1px solid rgba(184, 134, 11, .12);
             border-radius: var(--radius);
             padding: 32px;
             transition: all .4s;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 4px 20px rgba(26, 115, 232, .07);
+            box-shadow: 0 4px 20px rgba(184, 134, 11, .07);
         }
 
         .testimonial-card::before {
@@ -651,8 +649,8 @@
 
         .testimonial-card:hover {
             transform: translateY(-8px);
-            border-color: rgba(26, 115, 232, .25);
-            box-shadow: 0 20px 50px rgba(26, 115, 232, .15);
+            border-color: rgba(184, 134, 11, .25);
+            box-shadow: 0 20px 50px rgba(184, 134, 11, .15);
         }
 
         .testimonial-card:hover::before {
@@ -713,7 +711,7 @@
 
         /* GALLERY */
         .gallery {
-            background: linear-gradient(180deg, #f0f6ff 0%, #ffffff 100%);
+            background: linear-gradient(180deg, #fdf8ee 0%, #ffffff 100%);
         }
 
         .filter-bar {
@@ -727,7 +725,7 @@
         .filter-btn {
             padding: 10px 24px;
             background: white;
-            border: 1.5px solid rgba(26, 115, 232, .25);
+            border: 1.5px solid rgba(184, 134, 11, .25);
             color: #475569;
             border-radius: 50px;
             font-family: 'Inter', sans-serif;
@@ -742,7 +740,7 @@
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             border-color: transparent;
-            box-shadow: 0 8px 24px rgba(26, 115, 232, .30);
+            box-shadow: 0 8px 24px rgba(184, 134, 11, .30);
         }
 
         .gallery-grid {
@@ -753,18 +751,18 @@
 
         .post-card {
             background: white;
-            border: 1px solid rgba(26, 115, 232, .12);
+            border: 1px solid rgba(184, 134, 11, .12);
             border-radius: var(--radius);
             overflow: hidden;
             transition: all .4s;
             cursor: pointer;
-            box-shadow: 0 4px 16px rgba(26, 115, 232, .07);
+            box-shadow: 0 4px 16px rgba(184, 134, 11, .07);
         }
 
         .post-card:hover {
             transform: translateY(-8px);
-            border-color: rgba(26, 115, 232, .3);
-            box-shadow: 0 20px 50px rgba(26, 115, 232, .15);
+            border-color: rgba(184, 134, 11, .3);
+            box-shadow: 0 20px 50px rgba(184, 134, 11, .15);
         }
 
         .post-img {
@@ -821,7 +819,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-top: 1px solid rgba(26, 115, 232, .1);
+            border-top: 1px solid rgba(184, 134, 11, .1);
             padding-top: 16px;
         }
 
@@ -850,7 +848,7 @@
 
         /* CONTACT */
         .contact {
-            background: #f0f6ff;
+            background: #fdf8ee;
             position: relative;
             overflow: hidden;
         }
@@ -862,7 +860,7 @@
             right: -200px;
             width: 600px;
             height: 600px;
-            background: rgba(26, 115, 232, .06);
+            background: rgba(184, 134, 11, .06);
             border-radius: 50%;
             filter: blur(80px);
         }
@@ -894,9 +892,9 @@
             margin-bottom: 20px;
             padding: 16px;
             background: white;
-            border: 1px solid rgba(26, 115, 232, .15);
+            border: 1px solid rgba(184, 134, 11, .15);
             border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(26, 115, 232, .06);
+            box-shadow: 0 4px 16px rgba(184, 134, 11, .06);
         }
 
         .contact-detail .icon {
@@ -915,7 +913,6 @@
         .contact-detail .info {
             font-size: .9rem;
             color: #334155;
-            word-break: break-word;
         }
 
         .contact-detail .info a {
@@ -930,10 +927,10 @@
 
         .contact-form-wrap {
             background: white;
-            border: 1px solid rgba(26, 115, 232, .15);
+            border: 1px solid rgba(184, 134, 11, .15);
             border-radius: 24px;
             padding: 48px;
-            box-shadow: 0 10px 40px rgba(26, 115, 232, .1);
+            box-shadow: 0 10px 40px rgba(184, 134, 11, .1);
         }
 
         .form-title {
@@ -973,8 +970,8 @@
         .form-group textarea {
             width: 100%;
             padding: 14px 18px;
-            background: #f8fbff;
-            border: 1.5px solid rgba(26, 115, 232, .2);
+            background: #fffdf5;
+            border: 1.5px solid rgba(184, 134, 11, .2);
             border-radius: 12px;
             color: #0f172a;
             font-family: 'Inter', sans-serif;
@@ -997,7 +994,7 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(26, 115, 232, .12);
+            box-shadow: 0 0 0 3px rgba(184, 134, 11, .12);
             background: white;
         }
 
@@ -1021,7 +1018,7 @@
 
         .btn-submit:hover {
             transform: translateY(-2px);
-            box-shadow: 0 12px 35px rgba(26, 115, 232, .40);
+            box-shadow: 0 12px 35px rgba(184, 134, 11, .40);
         }
 
         .btn-submit:disabled {
@@ -1030,8 +1027,8 @@
         }
 
         .success-message {
-            background: linear-gradient(135deg, rgba(26, 115, 232, .1), rgba(14, 165, 233, .08));
-            border: 1px solid rgba(26, 115, 232, .25);
+            background: linear-gradient(135deg, rgba(184, 134, 11, .1), rgba(245, 200, 66, .08));
+            border: 1px solid rgba(184, 134, 11, .25);
             color: var(--primary);
             padding: 16px;
             border-radius: 12px;
@@ -1043,16 +1040,26 @@
 
         /* FOOTER */
         footer {
-            background: #18338a;
+            background: linear-gradient(135deg, #7c5a00 0%, #a07000 40%, #b8860b 70%, #8b6508 100%);
             border-top: none;
             padding: 80px 0 40px;
+            text-align: center;
         }
 
         .footer-grid {
             display: grid;
-            grid-template-columns: 1.5fr 1fr 1fr;
-            gap: 60px;
+            grid-template-columns: 1fr;
+            gap: 40px;
             margin-bottom: 60px;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
 
         .footer-brand .logo {
@@ -1066,13 +1073,14 @@
         .footer-brand p {
             color: rgba(255, 255, 255, .75);
             line-height: 1.8;
-            margin-bottom: 24px;
+            margin: 0 auto 24px;
             max-width: 320px;
         }
 
         .socials {
             display: flex;
             gap: 12px;
+            justify-content: center;
         }
 
         .socials a {
@@ -1096,15 +1104,28 @@
             transform: translateY(-3px);
         }
 
+        .footer-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
         .footer-col h4 {
             font-size: 1rem;
             font-weight: 700;
             margin-bottom: 20px;
             color: white;
+            text-align: center;
+            width: 100%;
         }
 
         .footer-links {
             list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
         }
 
         .footer-links li {
@@ -1118,6 +1139,7 @@
             transition: color .3s;
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
         }
 
@@ -1158,16 +1180,6 @@
             transition: all .3s cubic-bezier(.34, 1.56, .64, 1);
         }
 
-        @media(max-width: 768px) {
-            .whatsapp-float {
-                width: 50px;
-                height: 50px;
-                bottom: 20px;
-                right: 20px;
-                font-size: 1.5rem;
-            }
-        }
-
         .whatsapp-float:hover {
             transform: scale(1.15);
             box-shadow: 0 12px 40px rgba(37, 211, 102, .7);
@@ -1188,7 +1200,7 @@
 
         .modal-content {
             background: white;
-            border: 1px solid rgba(26, 115, 232, .15);
+            border: 1px solid rgba(184, 134, 11, .15);
             max-width: 780px;
             width: 100%;
             max-height: 90vh;
@@ -1196,15 +1208,15 @@
             border-radius: 24px;
             padding: 40px;
             position: relative;
-            box-shadow: 0 30px 80px rgba(26, 115, 232, .2);
+            box-shadow: 0 30px 80px rgba(184, 134, 11, .2);
         }
 
         .close-modal {
             position: absolute;
             top: 20px;
             right: 20px;
-            background: #f0f6ff;
-            border: 1px solid rgba(26, 115, 232, .2);
+            background: #fdf8ee;
+            border: 1px solid rgba(184, 134, 11, .2);
             color: #334155;
             width: 36px;
             height: 36px;
@@ -1257,7 +1269,7 @@
             font-size: .88rem;
             margin-bottom: 24px;
             padding-bottom: 24px;
-            border-bottom: 1px solid rgba(26, 115, 232, .12);
+            border-bottom: 1px solid rgba(184, 134, 11, .12);
         }
 
         .modal-meta span {
@@ -1293,10 +1305,6 @@
                 gap: 40px;
             }
 
-            .hero h1 {
-                font-size: 3rem;
-            }
-
             .hero p {
                 margin: 0 auto 40px;
             }
@@ -1307,16 +1315,18 @@
 
             .hero-stats {
                 justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
             }
 
             .hero-image-card {
-                max-width: 480px;
-                margin: 40px auto 0;
+                max-width: 440px;
+                margin: 0 auto;
             }
 
             .about-grid {
                 grid-template-columns: 1fr;
-                gap: 40px;
+                gap: 60px;
             }
 
             .testimonial-grid {
@@ -1345,11 +1355,10 @@
                 width: 100%;
                 background: white;
                 flex-direction: column;
-                padding: 40px 24px;
-                gap: 2rem;
-                border-bottom: 1px solid rgba(26, 115, 232, .15);
-                box-shadow: 0 10px 30px rgba(26, 115, 232, .1);
-                text-align: center;
+                padding: 30px 5%;
+                gap: 1.5rem;
+                border-bottom: 1px solid rgba(184, 134, 11, .15);
+                box-shadow: 0 15px 35px rgba(184, 134, 11, .12);
             }
 
             .nav-links.active {
@@ -1361,43 +1370,63 @@
             }
 
             .hero h1 {
-                font-size: 2.6rem;
+                font-size: 2.5rem;
+                line-height: 1.2;
             }
 
-            .hero-btns .btn-primary,
-            .hero-btns .btn-outline {
-                width: 100%;
-                justify-content: center;
+            .hero-image-wrap img {
+                height: 400px;
+            }
+
+            .experience-card {
+                bottom: 20px;
+                right: 20px;
+                padding: 12px 20px;
+                transform: none;
+            }
+
+            .experience-card .num {
+                font-size: 1.8rem;
             }
 
             .testimonial-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
             }
 
             .gallery-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .filter-bar {
+                gap: 8px;
+                margin-bottom: 30px;
+            }
+
+            .filter-btn {
+                padding: 8px 16px;
+                font-size: .8rem;
             }
 
             .form-row {
                 grid-template-columns: 1fr;
+                gap: 0;
             }
 
             .footer-grid {
                 grid-template-columns: 1fr;
-                text-align: center;
                 gap: 40px;
-            }
-
-            .footer-brand p,
-            .socials,
-            .footer-links a {
-                justify-content: center;
-                margin-left: auto;
-                margin-right: auto;
+                justify-items: center;
+                text-align: center;
             }
 
             .contact-form-wrap {
-                padding: 32px 24px;
+                padding: 30px 20px;
+            }
+
+            .form-title {
+                font-size: 1.3rem;
             }
 
             section {
@@ -1408,62 +1437,51 @@
                 display: none;
             }
 
-            .experience-card {
-                bottom: -20px;
-                right: 20px;
-                padding: 15px 20px;
+            .hero-stats {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+                padding-top: 30px;
+                width: 100%;
             }
 
-            .modal-content {
-                padding: 30px 20px;
+            .stat {
+                padding: 15px 10px;
+                background: white;
+                border-radius: 12px;
+                border: 1px solid rgba(184, 134, 11, .1);
+                text-align: center;
             }
 
-            .modal-post-image {
-                height: 200px;
+            .socials {
+                justify-content: center;
+                margin-top: 10px;
             }
         }
 
         @media(max-width:576px) {
-            .logo {
-                font-size: 1.25rem;
+            .hero h1 {
+                font-size: 2.1rem;
             }
 
-            .hero h1 {
-                font-size: 2.2rem;
+            .hero p {
+                font-size: 1rem;
             }
 
             .hero-stats {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 20px;
-                padding-top: 30px;
+                gap: 10px;
             }
 
             .stat-num {
-                font-size: 1.6rem;
+                font-size: 1.4rem;
             }
 
             .section-header h2 {
                 font-size: 1.8rem;
             }
 
-            .about-content h3 {
-                font-size: 1.7rem;
-            }
-        }
-
-        @media(max-width:400px) {
-            .logo {
-                font-size: 1.1rem;
-            }
-
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-
-            .hero-badge {
-                padding: 6px 14px;
-                font-size: .75rem;
+            .container {
+                padding: 0 20px;
             }
         }
     </style>
@@ -1568,349 +1586,4 @@
                     <div class="tags">
                         <div class="tag"><i class="fas fa-certificate"></i> PTE Certified Trainer</div>
                         <div class="tag"><i class="fas fa-star"></i> IELTS 8.5 Band</div>
-                        <div class="tag"><i class="fas fa-graduation-cap"></i> MA in English Linguistics</div>
-                        <div class="tag"><i class="fas fa-users"></i> 2,000+ Students Trained</div>
-                        <div class="tag"><i class="fas fa-chart-line"></i> 90% Success Rate</div>
-                    </div>
-                    <a href="#contact" class="btn-primary" style="display:inline-flex;text-decoration:none;"><i
-                            class="fas fa-calendar-alt"></i> Schedule a Consultation</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section id="posts" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag">Student Reviews</div>
-                <h2>Real Stories, <span>Real Success</span></h2>
-                <p>Hear from students who achieved their PTE goals with expert guidance</p>
-            </div>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                    <p class="testimonial-text">"Miss Jeewanthi's exceptional teaching approach, clarity, and dedication
-                        played a vital role in improving my English proficiency and confidence. Although I am currently
-                        in Melbourne, Australia, the guidance and knowledge I gained from her continue to support my
-                        academic and professional journey."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><img src="Senuth Dilshan.jpg" alt="Senuth Dilshan"></div>
-                        <div>
-                            <div class="author-name">Senuth Dilshan</div>
-                            <div class="author-location"><i class="fas fa-map-marker-alt"></i> Melbourne, Australia
-                            </div>
-                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                    <p class="testimonial-text">"Miss Jeewanthi has been an incredible mentor in my PTE journey. Her
-                        practical teaching style, patience, and attention to detail helped me develop strong English
-                        skills and greater self-confidence. Her dedication to helping students succeed is truly
-                        admirable."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><img src="Oshin Taniya.jpeg" alt="Oshin Taniya"></div>
-                        <div>
-                            <div class="author-name">Oshin Taniya</div>
-                            <div class="author-location"><i class="fas fa-map-marker-alt"></i> Sri Lanka</div>
-                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                    <p class="testimonial-text">"This course really helped me improve my PTE score. I was struggling
-                        with writing, but the strategies were easy to understand and apply. I was in Italy and later
-                        moved to Deakin, and the guidance I received during this transition was very helpful."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><img src="Ekanayakege Don Tharushie Gihani Ekanayake.jpeg"
-                                alt="Tharushie Gihani"></div>
-                        <div>
-                            <div class="author-name">Tharushie Gihani Ekanayake</div>
-                            <div class="author-location"><i class="fas fa-map-marker-alt"></i> Italy → Deakin</div>
-                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- GALLERY -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag">Resources</div>
-                <h2>PTE Tips &amp; <span>Strategies</span></h2>
-                <p>Explore expert tips, strategies, and guides across all PTE modules</p>
-            </div>
-            <div class="filter-bar">
-                <button class="filter-btn active" data-filter="all">All Posts</button>
-                <button class="filter-btn" data-filter="speaking">Speaking</button>
-                <button class="filter-btn" data-filter="writing">Writing</button>
-                <button class="filter-btn" data-filter="reading">Reading</button>
-                <button class="filter-btn" data-filter="listening">Listening</button>
-                <button class="filter-btn" data-filter="tips">Study Tips</button>
-            </div>
-            <div class="gallery-grid" id="galleryGrid"></div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag">Get Started</div>
-                <h2>Book Your <span>Free Trial</span></h2>
-                <p>Fill out the form and we'll contact you within 24 hours to schedule your free session</p>
-            </div>
-            <div class="contact-wrap">
-                <div class="contact-info">
-                    <h3>Let's Start Your PTE Journey</h3>
-                    <p>Whether you need to pass PTE for university admission, work visa, or migration — we have the
-                        right coaching plan for you. Get in touch today and take the first step toward your goal score.
-                    </p>
-                    <div class="contact-detail">
-                        <div class="icon"><i class="fas fa-envelope"></i></div>
-                        <div class="info">
-                            <div class="lbl">Email Us</div>
-                            <a href="mailto:info@learnptefromjeewanthi.com">info@learnptefromjeewanthi.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <div class="icon"><i class="fas fa-phone"></i></div>
-                        <div class="info">
-                            <div class="lbl">Call / WhatsApp</div>
-                            <a href="tel:+94717771787">+94 71 777 1787 | +94 77 711 7210</a>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <div class="icon"><i class="fas fa-globe"></i></div>
-                        <div class="info">
-                            <div class="lbl">Classes Available</div>
-                            Online Worldwide · Mon–Sat: 9AM–9PM (GMT)
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <div class="icon"><i class="fab fa-facebook"></i></div>
-                        <div class="info">
-                            <div class="lbl">Follow Us</div>
-                            <a href="https://www.facebook.com/share/17xHzvEdM4/?mibextid=wwXIfr"
-                                target="_blank">Facebook</a> &nbsp;|&nbsp;
-                            <a href="https://www.instagram.com/learn_pte_fast?igsh=a3U0amltYmJhZ3Fm"
-                                target="_blank">Instagram</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form-wrap">
-                    <div class="form-title">Book Your Slot</div>
-                    <div class="form-subtitle">Complete the form below — it only takes 2 minutes!</div>
-                    <div class="success-message" id="successMessage"><i class="fas fa-check-circle"></i> Thank you!
-                        We'll contact you within 24 hours.</div>
-                    <form id="contactForm">
-                        <div class="form-row">
-                            <div class="form-group"><label>Full Name *</label><input type="text" id="fullName"
-                                    placeholder="Your full name" required></div>
-                            <div class="form-group"><label>Email Address *</label><input type="email" id="email"
-                                    placeholder="your@email.com" required></div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group"><label>Phone Number</label><input type="tel" id="phone"
-                                    placeholder="+94 XX XXX XXXX"></div>
-                            <div class="form-group"><label>Migration Country</label>
-                                <select id="country">
-                                    <option value="">Select Country</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="UK">UK</option>
-                                    <option value="Canada">Canada</option>
-                                    <option value="New Zealand">New Zealand</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group"><label>Score Needed</label><input type="text" id="pteScore"
-                                placeholder="e.g., 65 overall or 70/65/72/68"></div>
-                        <div class="form-group"><label>Remarks</label><textarea id="message" rows="4"
-                                placeholder="Tell us about your goals, challenges, and preferred schedule..."></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Submit
-                            Enquiry</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo">Learn PTE · Jeewanthi</div>
-                    <p>Expert PTE tutoring with proven strategies to help you achieve your target score for study, work,
-                        or migration purposes. Online classes available worldwide.</p>
-                    <div class="socials">
-                        <a href="https://www.facebook.com/share/17xHzvEdM4/?mibextid=wwXIfr" target="_blank"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/learn_pte_fast?igsh=a3U0amltYmJhZ3Fm" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/jeewanthi-marasinghe-59552268" target="_blank"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a href="https://wa.me/61421059714" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Tutor</a></li>
-                        <li><a href="#posts"><i class="fas fa-chevron-right"></i> Student Success</a></li>
-                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> PTE Tips &amp; Strategies</a></li>
-                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Book a Slot</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
-                    <ul class="footer-links">
-                        <li><a href="mailto:info@learnptefromjeewanthi.com"><i class="fas fa-envelope"></i>
-                                info@learnptefromjeewanthi.com </a></li>
-                        <li><a href="tel:+94717771787"><i class="fas fa-phone"></i> +61 421 059 714</a></li>
-                        <li><a href="#"><i class="fas fa-globe"></i> Online Classes Worldwide</a></li>
-                        <li><a href="#"><i class="fas fa-clock"></i> Mon–Sat: 9AM–9PM (GMT)</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Learn PTE from Jeewanthi. All rights reserved. Website by VRELabz</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WHATSAPP -->
-    <a href="https://wa.me/61421059714" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i
-            class="fab fa-whatsapp"></i></a>
-
-    <!-- MODAL -->
-    <div class="modal" id="postModal">
-        <div class="modal-content">
-            <button class="close-modal" id="closeModal">&times;</button>
-            <img class="modal-post-image" id="modalImage" src="" alt="">
-            <div id="modalCategory"></div>
-            <h3 id="modalTitle"></h3>
-            <div class="modal-meta">
-                <span><i class="far fa-calendar"></i> <span id="modalDate"></span></span>
-                <span><i class="far fa-clock"></i> <span id="modalReadTime"></span> read</span>
-            </div>
-            <div id="modalContent"></div>
-        </div>
-    </div>
-
-    <script>
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzCgVWpxKkykzwMxeUfNedNwoyeJXMjJAmTzt1hInI1zhg15rIOMvqdcIs1VXVexnNMYA/exec';
-
-        const posts = [
-            { id: 1, title: "Mastering PTE Speaking: 5 Tips for Fluency", excerpt: "Learn how to improve your fluency and pronunciation in the speaking section with these proven techniques.", category: "speaking", image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80", date: "May 15, 2023", readTime: "5 min", content: "<p>PTE Speaking requires a combination of fluency, pronunciation, and content. Here are 5 key strategies:</p><ul><li><strong>Use preparation time wisely:</strong> Note down keywords to guide your response.</li><li><strong>Focus on smooth delivery:</strong> Avoid unnatural pauses and filler words.</li><li><strong>Pay attention to word stress:</strong> Practice stressing correct syllables.</li><li><strong>Master the 5-paragraph structure:</strong> Introduction, three main points, conclusion.</li><li><strong>Record and analyze your practice:</strong> Listen back to identify areas for improvement.</li></ul><p>With consistent practice, you can significantly improve your speaking score.</p>" },
-            { id: 2, title: "PTE Writing Templates That Work", excerpt: "Discover the essay and summarize written text templates that have helped students score 79+.", category: "writing", image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80", date: "June 2, 2023", readTime: "7 min", content: "<p>The writing section has two tasks: Summarize Written Text and Write Essay. Here are templates that work:</p><h4>Summarize Written Text Template</h4><p>The text discusses [main topic] and explains that [key point 1]. Additionally, it mentions [key point 2] and concludes that [main conclusion].</p><h4>Essay Template (Introduction)</h4><p>The issue of [essay topic] has generated considerable debate. While some argue that [one perspective], others contend that [opposite perspective]. This essay will discuss both viewpoints before concluding that [your position].</p><h4>Essay Template (Conclusion)</h4><p>In conclusion, while [acknowledge counter-argument], the evidence suggests that [restate your position]. Therefore, [final thought].</p>" },
-            { id: 3, title: "Reading Strategies for Multiple Choice", excerpt: "Learn how to quickly identify key information in reading passages to answer questions accurately.", category: "reading", image: "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=800&q=80", date: "April 28, 2023", readTime: "6 min", content: "<p>The PTE Reading section tests your ability to comprehend academic texts. Here are effective strategies:</p><h4>1. Skim First, Read Questions Second</h4><p>Don't read the entire passage word-for-word. Skim for the main idea, then read the questions.</p><h4>2. Identify Keywords</h4><p>Underline keywords in questions and answer choices. Look for them in the passage.</p><h4>3. Eliminate Wrong Answers</h4><p>Eliminate options that are too extreme, contradicted by the passage, or only partially correct.</p><h4>4. Pay Attention to Transition Words</h4><p>Words like 'however', 'therefore', 'in contrast' signal important relationships between ideas.</p>" },
-            { id: 4, title: "Improving Listening Skills for PTE", excerpt: "Techniques to enhance your listening comprehension and note-taking abilities.", category: "listening", image: "https://images.unsplash.com/photo-1545696563-af8f6ec2295a?auto=format&fit=crop&w=800&q=80", date: "May 10, 2023", readTime: "8 min", content: "<p>The PTE Listening section evaluates understanding of spoken English in academic contexts. Here's how to improve:</p><h4>1. Develop Effective Note-Taking</h4><p>Create your own shorthand for common words. Capture key nouns, verbs, numbers, and dates.</p><h4>2. Practice with Different Accents</h4><p>PTE includes British, American, Australian, and non-native accents. Expose yourself to varied podcasts and lectures.</p><h4>3. Focus on Signal Words</h4><p>Listen for emphasis words like 'important', example words like 'for instance', and conclusion words like 'therefore'.</p>" },
-            { id: 5, title: "Time Management for PTE Success", excerpt: "Learn how to allocate your time effectively across all PTE sections to maximize your score.", category: "tips", image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80", date: "June 18, 2023", readTime: "4 min", content: "<p>Effective time management is crucial for PTE success. Follow this strategy:</p><h4>Speaking Section (77–93 min)</h4><ul><li>Read Aloud: 30–35 seconds prep, 30–40 seconds response</li><li>Describe Image: 25 seconds prep, 40 seconds response</li></ul><h4>Writing Section (40–60 min)</h4><ul><li>Summarize Written Text: Read (2–3 min), Write (8–10 min)</li><li>Write Essay: Plan (5 min), Write (15 min), Review (5 min)</li></ul><h4>Reading & Listening</h4><ul><li>Multiple Choice: 2 minutes per question</li><li>Fill in the Blanks: 1.5–2 minutes each</li></ul>" },
-            { id: 6, title: "Common Mistakes in PTE Speaking", excerpt: "Identify and correct the most frequent errors students make in the speaking section.", category: "speaking", image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80", date: "July 5, 2023", readTime: "6 min", content: "<p>Even advanced speakers make mistakes that lower their PTE scores. Here are the most common errors:</p><h4>1. Speaking Too Fast or Too Slow</h4><p>The ideal rate is 140–160 words per minute. Adjust pace to maintain clarity.</p><h4>2. Inconsistent Volume</h4><p>Maintain a consistent volume throughout. Don't trail off at the end of sentences.</p><h4>3. Overcorrecting Mistakes</h4><p>If you make a small error, continue speaking without stopping.</p><h4>4. Not Using the Full Time</h4><p>For Describe Image and Re-tell Lecture, use the entire 40 seconds. Stopping early hurts your content score.</p>" }
-        ];
-
-        // Nav scroll effect
-        window.addEventListener('scroll', () => {
-            document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
-        });
-
-        // Mobile menu
-        document.getElementById('menuBtn').addEventListener('click', () => {
-            const nav = document.getElementById('navLinks');
-            nav.classList.toggle('active');
-            document.getElementById('menuBtn').innerHTML = nav.classList.contains('active')
-                ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
-        });
-        document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => {
-            document.getElementById('navLinks').classList.remove('active');
-            document.getElementById('menuBtn').innerHTML = '<i class="fas fa-bars"></i>';
-        }));
-
-        // Logo click
-        document.querySelector('.logo').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-        // Gallery
-        function renderPosts(list) {
-            const grid = document.getElementById('galleryGrid');
-            grid.innerHTML = list.map(p => `
-    <div class="post-card" data-category="${p.category}">
-      <div class="post-img"><img src="${p.image}" alt="${p.title}" loading="lazy"><span class="post-cat">${p.category}</span></div>
-      <div class="post-body">
-        <div class="post-title">${p.title}</div>
-        <div class="post-excerpt">${p.excerpt}</div>
-        <div class="post-footer">
-          <div class="post-date"><i class="far fa-calendar"></i>${p.date}</div>
-          <a href="#" class="read-more" data-id="${p.id}">Read More <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>`).join('');
-            document.querySelectorAll('.read-more').forEach(a => a.addEventListener('click', e => { e.preventDefault(); openModal(+a.dataset.id); }));
-        }
-        renderPosts(posts);
-
-        document.querySelectorAll('.filter-btn').forEach(btn => btn.addEventListener('click', () => {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            const f = btn.dataset.filter;
-            renderPosts(f === 'all' ? posts : posts.filter(p => p.category === f));
-        }));
-
-        // Modal
-        function openModal(id) {
-            const p = posts.find(x => x.id === id);
-            if (!p) return;
-            document.getElementById('modalImage').src = p.image;
-            document.getElementById('modalImage').alt = p.title;
-            document.getElementById('modalCategory').textContent = p.category.charAt(0).toUpperCase() + p.category.slice(1);
-            document.getElementById('modalTitle').textContent = p.title;
-            document.getElementById('modalDate').textContent = p.date;
-            document.getElementById('modalReadTime').textContent = p.readTime;
-            document.getElementById('modalContent').innerHTML = p.content;
-            document.getElementById('postModal').style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-        }
-        document.getElementById('closeModal').addEventListener('click', () => { document.getElementById('postModal').style.display = 'none'; document.body.style.overflow = 'auto'; });
-        document.getElementById('postModal').addEventListener('click', e => { if (e.target === document.getElementById('postModal')) { document.getElementById('postModal').style.display = 'none'; document.body.style.overflow = 'auto'; } });
-
-        // Form
-        document.getElementById('contactForm').addEventListener('submit', async function (e) {
-            e.preventDefault();
-            const btn = this.querySelector('.btn-submit');
-            btn.disabled = true; btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
-            const formData = { name: fullName.value, phone: phone.value, email: email.value, country: country.value, scoreNeeded: pteScore.value, remarks: message.value };
-            try {
-                await fetch(GOOGLE_SCRIPT_URL, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData) });
-                const sm = document.getElementById('successMessage'); sm.style.display = 'block';
-                sm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                setTimeout(() => { this.reset(); sm.style.display = 'none'; }, 5000);
-            } catch (err) { alert('Error submitting. Please contact us on WhatsApp: +94 71 777 1787'); }
-            finally { btn.disabled = false; btn.innerHTML = '<i class="fas fa-paper-plane"></i> Submit Enquiry'; }
-        });
-
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', function (e) {
-            const t = this.getAttribute('href'); if (t === '#') return;
-            const el = document.querySelector(t);
-            if (el) { e.preventDefault(); window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' }); }
-        }));
-
-        // Animate on scroll
-        const observer = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.style.opacity = '1'; }); }, { threshold: 0.1 });
-        document.querySelectorAll('section').forEach(s => { s.style.opacity = '0'; s.style.transition = 'opacity 0.8s ease'; observer.observe(s); });
-    </script>
-</body>
-
-</html>
+    
